@@ -157,3 +157,15 @@ thereisamethodcall(arg1, arg2).thereisanothermethodcall(arg1, arg2).asimpleone(
   arg
 )
 ```
+
+### do not transform lambda call
+
+```ruby
+json.(:id, :name)
+```
+
+won't be transformed to
+
+```ruby
+json.call(:id, :name)
+```
