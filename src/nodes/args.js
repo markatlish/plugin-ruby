@@ -10,7 +10,7 @@ const {
 
 const { docLength, makeList, makeArgs } = require("../utils");
 
-const MAX_NOT_WRAP_LINE_ARGS_LENGTH = 20;
+const MAX_NOT_WRAP_LINE_ARGS_LENGTH = 15;
 const shouldWrapLine = (args) =>
   args.reduce((sum, arg) => sum + docLength(arg), 0) >
     MAX_NOT_WRAP_LINE_ARGS_LENGTH ||
