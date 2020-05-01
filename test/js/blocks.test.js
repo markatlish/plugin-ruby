@@ -80,12 +80,12 @@ describe("blocks", () => {
 
   // from ruby test/ruby/test_call.rb
   test("inline do end", () =>
-    expect(`assert_nil(("a".sub! "b" do end&.foobar {}))`).toChangeFormat(
+    expect(`assert_nil(("a".sub! "b" do end&.foofoofoofoo {}))`).toChangeFormat(
       ruby(`
       assert_nil(
         (
           'a'.sub! 'b' do
-          end&.foobar {}
+          end&.foofoofoofoo {}
         )
       )
     `)
