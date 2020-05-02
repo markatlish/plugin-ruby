@@ -6,9 +6,13 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## [Unreleased]
 
+## [0.18.2] - 2020-05-01
+
 ### Changed
 
 - [@alse] - Support `vscodeLanguageIds` for HAML.
+- [@ShayDavidson], [@kddeisz] - Don't allow replacing if/else with ternary if there's an assignment in the predicate.
+- [@janklimo] - Do not add an empty line after `rescue` when the block is empty.
 
 ## [0.18.1] - 2020-04-05
 
@@ -40,7 +44,7 @@ should maintain its `do...end` and not switch to inline braces otherwise the bra
 
 - [@ftes], [@kddeisz] - When old-form dynamic attributes are added to a `div` tag in HAML, it was previously skipping printing the `%div`, which led to it being incorrectly displayed.
 - [@ftes], [@kddeisz] - Previously if you had a long tag declaration with attributes that made it hit the line limit, then the content of the tag would be pushed to the next line but indented one character too many.
-- [@ftes], [@kddeisz] - Don't explicitly require JSON if it has already been loaed, as this can lead to rubygems activation errors.
+- [@ftes], [@kddeisz] - Don't explicitly require JSON if it has already been loaded, as this can lead to rubygems activation errors.
 - [@mmainz], [@kddeisz] - Handle heredocs as the receivers of call nodes, as in:
 
 <!-- prettier-ignore -->
@@ -799,7 +803,8 @@ would previously result in `array[]`, but now prints properly.
 
 - Initial release 🎉
 
-[unreleased]: https://github.com/prettier/plugin-ruby/compare/v0.18.1...HEAD
+[unreleased]: https://github.com/prettier/plugin-ruby/compare/v0.18.2...HEAD
+[0.18.2]: https://github.com/prettier/plugin-ruby/compare/v0.18.1...v0.18.2
 [0.18.1]: https://github.com/prettier/plugin-ruby/compare/v0.18.0...v0.18.1
 [0.18.0]: https://github.com/prettier/plugin-ruby/compare/v0.17.0...v0.18.0
 [0.17.0]: https://github.com/prettier/plugin-ruby/compare/v0.16.0...v0.17.0
@@ -843,6 +848,7 @@ would previously result in `array[]`, but now prints properly.
 [@aaronjensen]: https://github.com/aaronjensen
 [@acrewdson]: https://github.com/acrewdson
 [@alanfoster]: https://github.com/AlanFoster
+[@alse]: https://github.com/alse
 [@andrewraycode]: https://github.com/AndrewRayCode
 [@ashfurrow]: https://github.com/ashfurrow
 [@awinograd]: https://github.com/awinograd
@@ -864,6 +870,7 @@ would previously result in `array[]`, but now prints properly.
 [@ianks]: https://github.com/ianks
 [@jakeprime]: https://github.com/jakeprime
 [@jamescostian]: https://github.com/jamescostian
+[@janklimo]: https://github.com/janklimo
 [@joeyjoejoejr]: https://github.com/joeyjoejoejr
 [@johnschoeman]: https://github.com/johnschoeman
 [@joshuakgoldberg]: https://github.com/JoshuaKGoldberg
@@ -884,6 +891,7 @@ would previously result in `array[]`, but now prints properly.
 [@petevk]: https://github.com/petevk
 [@pje]: https://github.com/pje
 [@rosskinsella]: https://github.com/RossKinsella
+[@shaydavidson]: https://github.com/ShayDavidson
 [@tobyndockerill]: https://github.com/tobyndockerill
 [@uri]: https://github.com/uri
 [@xipgroc]: https://github.com/xipgroc

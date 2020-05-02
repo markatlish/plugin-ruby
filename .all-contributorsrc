@@ -378,6 +378,42 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "SViccari",
+      "name": "Stephanie",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4016985?v=4",
+      "profile": "http://sviccari.github.io",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "ShayDavidson",
+      "name": "Shay Davidson",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1366521?v=4",
+      "profile": "https://github.com/ShayDavidson",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "ryan-hunter-pc",
+      "name": "Ryan Hunter",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/13044512?v=4",
+      "profile": "https://github.com/ryan-hunter-pc",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "janklimo",
+      "name": "Jan Klimo",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/7811733?v=4",
+      "profile": "https://www.locksteplabs.com/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
