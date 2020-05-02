@@ -3,6 +3,15 @@
 This is a fork of prettier [plugin-ruby](https://github.com/prettier/plugin-ruby),
 which is used in [Awesome Code](https://awesomecode.io)
 
+## How to use
+
+```
+npm install prettier awesomecode-plugin-ruby
+npx prettier *.rb
+```
+
+## What changed comparing to the official plugin ruby?
+
 It contains the following changes
 
 ### do not add line break for aref node
