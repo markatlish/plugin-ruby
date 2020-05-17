@@ -14,7 +14,7 @@ npx prettier *.rb
 
 It contains the following changes
 
-### do not add line break for aref node
+### do not add line break for aref node (array)
 
 e.g.
 
@@ -30,7 +30,7 @@ hello.foo.bar.hello.foo.bar.hello.foo.bar.hello.foo.bar.hello.foo.bar.hello[
 ]
 ```
 
-### do not transform to ternary condition and vice versa
+### do not transform to ternary operator and vice versa
 
 e.g.
 
