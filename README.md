@@ -66,7 +66,7 @@ won't be transformed to
 result ? 'foo' : 'bar'
 ```
 
-### do not transform multiline while to inline while and vice verse
+### do not transform multiline while to inline while and vice versa
 
 e.g.
 
@@ -98,7 +98,7 @@ won't be transformed to
 included { has_many :build_items, dependent: :destroy }
 ```
 
-### do not tranform string_embexpr
+### do not transform string_embexpr
 
 ```ruby
 "node ./node_modules/prettier/bin-prettier.js --plugin ./node_modules/awesomecode-plugin-ruby --config #{FormatTool::DOCKER_FORMATRC_YAML} --ignore-path #{FormatTool::DOCKER_FORMAT_IGNORE} --write #{FormatTool::DOCKER_INPUT_PATH}/**/*.{rb,rake}"
